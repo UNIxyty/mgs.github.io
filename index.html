@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div><img class="logo" src="assets/logo.png" alt="logo"></div>
+            <ul class="links">
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About us</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact us</a></li>
+            </ul>
+        </div> 
+    </header>
+    <div class="hero">
+        <img src="assets/hero-images/desktop-hero-image.png" alt="desktop-hero-image">
+    </div>
+    <div class="second-section">
+        <img src="assets/second-section-images/desktop-second-section-image.png" alt="desktop-second-section-image">
+        <div class="content">
+            <h1>About<br>our company</h1>
+            <p>
+                At the forefront of the construction and maintenance industry, we pride ourselves on delivering top-tier solutions with unmatched precision and reliability. Our team of seasoned professionals is dedicated to enhancing structures and infrastructure, ensuring quality and efficiency in every project.
+            </p>
+            <button><h4>Learn more</h4></button>
+        </div>
+    </div>
+    <div class="contact-form">
+        <img src="assets/footer-image/desktop-footer-image.png" alt="desktop-footer-image">
+        <div class="form-fields">
+            <div class="form-heading">
+                <h1>Contact us</h1>
+                <hr>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="post" >
+                <input type="hidden" name="access_key" value="11e774cf-27f1-40d2-a10c-3f22819835ab">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="country" placeholder="Country of origin" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button id="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="assets/logo.png" alt="logo">
+        <div class="columns">
+            <div class="column1">
+                <h2>M.G.S IT LLC.</h2>
+                <div class="column1-spans">
+                    <span>Registration number: 40003124232</span>
+                    <span>VAT - LV40003124232</span>
+                    <span>Address: Braslas 22D Riga, Latvia, LV-1035</span>
+                    <span>SE Org. Nr: 502077-4146</span>
+                    <span>SE VAT - SE502077414601</span>
+                </div>
+            </div>
+            <div class="column2">
+                <h2 class="contact-us">Contact us</h2>
+                <div class="spans">
+                    <span>Latvia:+371 25505103</span>
+                    <span>Sweden:+46 762358425</span>
+                    <span>info@mgsit.eu</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
